@@ -15,7 +15,7 @@ class ToDoList:
         
         output = "Tasks:\n"
         for task in self.tasks:
-            output += f"- {task['task']} [{task['status']}]\n"
+            output += f"- {task['task']}\n"
         return output
 
     def mark_task_as_completed(self, task_name):
